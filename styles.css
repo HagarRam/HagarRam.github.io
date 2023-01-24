@@ -24,7 +24,7 @@
 	position: absolute;
 	margin-top: -11%;
 	width: 400px;
-	margin-left: 32%;
+	margin-left: 32.3%;
 	padding: 1%;
 	font-weight: 400;
 	border-top-left-radius: 12px;
@@ -36,8 +36,8 @@
 #buttonInput {
 	position: absolute;
 	margin-top: -11%;
-	width: 46px;
-	margin-left: 59%;
+	width: 50px;
+	margin-left: 60%;
 	padding: 1%;
 	padding-bottom: 31px;
 	cursor: pointer;
@@ -54,7 +54,9 @@
 	display: inline-block;
 	padding: 3px;
 }
-
+#buttonInput:hover {
+	background-color: rgb(56, 56, 56);
+}
 .right {
 	transform: rotate(-45deg);
 	position: absolute;
@@ -146,7 +148,7 @@ span {
 	margin-bottom: 4%;
 }
 .line3 {
-	margin-left: -136%;
+	margin-left: -143%;
 	margin-right: 5%;
 	margin-top: 2%;
 	margin-bottom: 4%;
