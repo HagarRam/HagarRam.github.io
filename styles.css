@@ -1,0 +1,288 @@
+* {
+	width: 1440px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+/********************** header ************************/
+#header {
+	position: relative;
+}
+#background {
+	width: 100%;
+}
+#title {
+	position: absolute;
+	margin-top: -15%;
+	color: white;
+	font-weight: 500;
+	font-size: 25px;
+	margin-left: 39%;
+}
+#inputIP {
+	position: absolute;
+	margin-top: -11%;
+	width: 400px;
+	margin-left: 32%;
+	padding: 1%;
+	font-weight: 400;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 0px;
+	border-style: none;
+}
+#buttonInput {
+	position: absolute;
+	margin-top: -11%;
+	width: 46px;
+	margin-left: 59%;
+	padding: 1%;
+	padding-bottom: 31px;
+	cursor: pointer;
+	border-style: none;
+	background-color: black;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 12px;
+}
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	position: absolute;
+	width: 6px;
+	margin-left: -13%;
+	margin-top: 7%;
+}
+
+/************************** modal *************************/
+#box {
+	margin-left: 16%;
+	margin-top: -70px;
+	padding: 20px;
+	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 40px;
+	background-color: white;
+	width: 950px;
+	height: 209px;
+	position: absolute;
+	display: flex;
+}
+#details-Container {
+	display: flex;
+}
+span {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 115%;
+	letter-spacing: -0.008em;
+}
+
+/* container */
+
+#location {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* margin-right: -222%; */
+	/* margin-top: 5%; */
+	margin-bottom: 20px;
+}
+#IPAddresslocation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* margin-left: 90%; */
+	/* margin-top: 9%; */
+	margin-bottom: 20px;
+}
+#timeZonelocation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* margin-left: -133%; */
+	/* margin-top: 5%; */
+	margin-bottom: 20px;
+}
+#isplocation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* margin-left: 2%; */
+	/* margin-top: 5%; */
+	margin-bottom: 20px;
+}
+
+.title {
+	color: #969696;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.1em;
+}
+.line1 {
+	margin-left: -135%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.line2 {
+	margin-left: -136%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+.line3 {
+	margin-left: -136%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+/* .modal {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	top: 0;
+	width: 100%;
+}
+
+.modal-windo {
+	margin-left: 16%;
+	margin-top: 5%;
+	padding: 20px;
+	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 40px;
+	background-color: white;
+	width: 950px;
+	height: 209px;
+}
+/* The Close Button in modal */
+/* .close {
+	color: #aaaaaa;
+	font-size: 28px;
+	font-weight: bold;
+	left: 95%;
+	position: absolute;
+}
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+} */
+
+/****************** .attribution ***********************/
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 500px) {
+	* {
+		width: 100%;
+	}
+	#background {
+		height: 140px;
+	}
+	#box {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		/* transform: rotate(-180deg); */
+		width: 47%;
+		height: 225px;
+		/* margin-bottom: 500px; */
+		margin-top: -10%;
+		margin-left: 23%;
+		text-align: center;
+	}
+	#inputIP {
+		margin-left: 26%;
+		width: 37%;
+		margin-top: -83px;
+		font-size: 6px;
+		height: 14px;
+	}
+
+	#buttonInput {
+		padding-bottom: 11px;
+		margin-left: 63%;
+		margin-top: -83px;
+		padding-top: 4px;
+		width: 20px;
+	}
+	.right {
+		width: 4px;
+		margin-left: -10%;
+		margin-top: 8%;
+	}
+	.arrow {
+		border-width: 0 2px 2px 0;
+
+		padding: 1px;
+	}
+	#title {
+		margin-left: 30%;
+		margin-top: -115px;
+		font-size: 14px;
+		width: 56%;
+	}
+	.title {
+		font-size: 8px;
+	}
+	span {
+		font-size: 8px;
+	}
+	.line1 {
+		height: 0;
+		width: 60%;
+		margin-left: 18%;
+		margin-bottom: 0;
+	}
+	.line2 {
+		height: 0;
+		width: 60%;
+		margin-left: 18%;
+		margin-bottom: 0;
+	}
+	.line3 {
+		height: 0;
+		width: 60%;
+		margin-left: 18%;
+		margin-bottom: 0;
+	}
+}
+
+/* #location {
+	display: grid;
+	grid-row: (1, span 1);
+}
+#IPAddresslocation {
+	display: grid;
+	grid-row: (2, span 1);
+}
+#timeZonelocation {
+	display: grid;
+	grid-row: (3, span 1);
+}
+#isplocation {
+	margin-bottom: 0;
+} */
