@@ -85,43 +85,37 @@ span {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 115%;
 	letter-spacing: -0.008em;
 }
 
-/* container */
+/********************* container **********************/
 
 #location {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	/* margin-right: -222%; */
-	/* margin-top: 5%; */
 	margin-bottom: 20px;
+	margin-left: 1%;
 }
 #IPAddresslocation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	/* margin-left: 90%; */
-	/* margin-top: 9%; */
 	margin-bottom: 20px;
 }
 #timeZonelocation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	/* margin-left: -133%; */
-	/* margin-top: 5%; */
 	margin-bottom: 20px;
 }
 #isplocation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	/* margin-left: 2%; */
-	/* margin-top: 5%; */
+	margin-left: -1%;
 	margin-bottom: 20px;
 }
 
@@ -148,8 +142,8 @@ span {
 	margin-bottom: 4%;
 }
 .line3 {
-	margin-left: -143%;
-	margin-right: 5%;
+	margin-left: -145%;
+	margin-right: 3%;
 	margin-top: 2%;
 	margin-bottom: 4%;
 }
@@ -208,10 +202,8 @@ span {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		/* transform: rotate(-180deg); */
 		width: 47%;
 		height: 225px;
-		/* margin-bottom: 500px; */
 		margin-top: -10%;
 		margin-left: 23%;
 		text-align: center;
@@ -272,19 +264,3 @@ span {
 		margin-bottom: 0;
 	}
 }
-
-/* #location {
-	display: grid;
-	grid-row: (1, span 1);
-}
-#IPAddresslocation {
-	display: grid;
-	grid-row: (2, span 1);
-}
-#timeZonelocation {
-	display: grid;
-	grid-row: (3, span 1);
-}
-#isplocation {
-	margin-bottom: 0;
-} */
