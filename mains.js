@@ -72,7 +72,6 @@ fetchButton
 					maps.id = 'googleMap';
 					maps.innerHTML = `<iframe src="https://maps.google.com/maps?q=${data.location.lat},${data.location.lng}&hl=es;z=14&amp;output=embed"  title="my maps"
 				width="1000%"
-			
 				height="500px"></iframe>`;
 				}
 			});
@@ -81,61 +80,3 @@ fetchButton
 		debugger;
 		containerDetails.innerHTML = error.message;
 	});
-
-// const fetchDataDefault = {
-// 	IP: data.ip,
-// 	location: `${data.location.city}, ${data.location.country} ${data.location.geonameId}`,
-// 	TimeZone: `UTC ${data.location.timezone}`,
-// 	ISP: data.isp,
-// };
-// defaultFu(fetchDataDefault);
-
-// const defaultFu = () => {
-// 	setInterval(() => {
-// 		const inputValue = input.value;
-// 		if (!inputValue) {
-// 			containerDetails.innerHTML = '';
-// 			const defaultInformation = {
-// 				IP: '',
-// 				location: ``,
-// 				TimeZone: ``,
-// 				ISP: '',
-// 			};
-// 		}
-// 	}, 1000);
-// };
-// const dataForModal = data.map((obj) => {
-// 	debugger;
-// 	return {
-// 		IPAddress: obj.ip,
-// 		location: obj.location,
-// 		timeZone: obj.location.timezone,
-// 		isp: obj.isp,
-// 	};
-// });
-// console.log(dataForModal);
-// return dataForModal;
-// openModal
-// const detailsContainer = document.getElementsByClassName('modal-windo')[0];
-// buttonInput.addEventListener('click', () => openModalnformation());
-
-// let openModalnformation = (index) => {
-// 	let i = 0;
-// 	let modal = document.getElementById('myModal');
-// 	let dataIP = document.createElement('div');
-// 	modal.style.display = 'block';
-// 	// fillTheData
-// };
-// // closeModal
-// let closeBtn = document.getElementById('close-modal');
-// console.log(closeBtn);
-// closeBtn.addEventListener('click', (event) => closeModal());
-
-// let closeModal = () => {
-// 	let modal = document.getElementById('myModal');
-// 	modal.style.display = 'none';
-
-// 	// cleanup
-// 	detailsContainer.innerHTML = '';
-// };
-// // */

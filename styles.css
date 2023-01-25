@@ -147,41 +147,6 @@ span {
 	margin-top: 2%;
 	margin-bottom: 4%;
 }
-
-/* .modal {
-	display: block;
-	position: fixed;
-	z-index: 1;
-	padding-top: 100px;
-	top: 0;
-	width: 100%;
-}
-
-.modal-windo {
-	margin-left: 16%;
-	margin-top: 5%;
-	padding: 20px;
-	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-	border-radius: 40px;
-	background-color: white;
-	width: 950px;
-	height: 209px;
-}
-/* The Close Button in modal */
-/* .close {
-	color: #aaaaaa;
-	font-size: 28px;
-	font-weight: bold;
-	left: 95%;
-	position: absolute;
-}
-.close:hover,
-.close:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-} */
-
 /****************** .attribution ***********************/
 .attribution {
 	font-size: 11px;
@@ -238,7 +203,7 @@ span {
 		margin-left: 35%;
 		margin-top: -115px;
 		font-size: 14px;
-		width: 56%;
+		width: 40%;
 	}
 	.title {
 		font-size: 8px;
