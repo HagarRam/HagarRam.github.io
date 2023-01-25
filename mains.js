@@ -67,11 +67,12 @@ fetchButton
 					mapsContainer.innerHTML = '';
 					const maps = mapsContainer.appendChild(document.createElement('div'));
 					maps.id = 'googleMap';
-					maps.innerHTML = `<iframe src="https://maps.google.com/maps?q=${data.location.lat},${data.location.lng}&hl=es;z=14&amp;output=embed"  title="my maps"
-				width="1000%"
-				height="500px"></iframe>`;
+					maps.innerHTML = `<iframe src="https://maps.google.com/maps?q=${data.location.lat},${data.location.lng}&hl=es;z=14&amp;output=embed" 
+					 title="my maps"
+					width="1000%"
+					height="500px">
+					</iframe>`;
 				}
-				debugger;
 			});
 	})
 	.catch((error) => {
