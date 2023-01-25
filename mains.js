@@ -77,6 +77,5 @@ fetchButton
 			});
 	})
 	.catch((error) => {
-		debugger;
 		containerDetails.innerHTML = error.message;
 	});
