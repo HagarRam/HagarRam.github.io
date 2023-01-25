@@ -11,7 +11,6 @@ fetchButton
 		https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_IqaOVPyAnIrIZCpFR8UP3mLPojM8w&ipAddress=${searchIP}`
 		)
 			.then((response) => {
-				console.log(response);
 				if (response.ok) {
 					return response.json();
 				} else {
@@ -21,7 +20,6 @@ fetchButton
 			})
 			.then((data) => {
 				{
-					console.log(data);
 					containerDetails.innerHTML = '';
 					const location = containerDetails.appendChild(
 						document.createElement('div')
@@ -68,12 +66,12 @@ fetchButton
 				{
 					mapsContainer.innerHTML = '';
 					const maps = mapsContainer.appendChild(document.createElement('div'));
-					console.log(data);
 					maps.id = 'googleMap';
 					maps.innerHTML = `<iframe src="https://maps.google.com/maps?q=${data.location.lat},${data.location.lng}&hl=es;z=14&amp;output=embed"  title="my maps"
 				width="1000%"
 				height="500px"></iframe>`;
 				}
+				debugger;
 			});
 	})
 	.catch((error) => {
