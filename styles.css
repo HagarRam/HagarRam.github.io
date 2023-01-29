@@ -93,7 +93,7 @@ span {
 	font-size: 14px;
 	line-height: 15px;
 	margin-left: -7%;
-	margin-top: 21px;
+	margin-top: 15px;
 	margin-bottom: 28px;
 	letter-spacing: 0.1em;
 }
@@ -104,6 +104,7 @@ span {
 #isplocation {
 	margin-right: 11%;
 }
+
 hr {
 	margin-right: 2%;
 }
