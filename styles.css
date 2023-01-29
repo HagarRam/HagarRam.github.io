@@ -63,11 +63,11 @@
 	margin-left: 10%;
 	margin-top: -40px;
 	padding: 20px;
-	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+	filter: drop-shadow(12px 12px 12px rgba(0, 0, 0, 0.15));
 	border-radius: 9px;
 	background-color: white;
 	width: 74%;
-	height: 17%;
+	height: 12%;
 	position: absolute;
 	display: flex;
 }
@@ -80,7 +80,7 @@ span {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 115%;
 	letter-spacing: -0.008em;
 }
@@ -90,20 +90,23 @@ span {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 15px;
-	margin-left: 0%;
-	margin-top: 9px;
-	margin-bottom: 55px;
+	margin-left: -7%;
+	margin-top: 21px;
+	margin-bottom: 28px;
 	letter-spacing: 0.1em;
 }
 #location {
-	margin-left: 1%;
+	margin-right: -12%;
+	margin-left: 2%;
 }
 #isplocation {
-	margin-right: 6%;
+	margin-right: 11%;
 }
-
+hr {
+	margin-right: 2%;
+}
 /************************* map **************************/
 
 #maps {
@@ -164,19 +167,7 @@ span {
 	.IPAddresslocation {
 		width: 100%;
 	}
-	.line1 {
-		height: 0;
-		width: 60%;
-		margin-left: 18%;
-		margin-bottom: 0;
-	}
-	.line2 {
-		height: 0;
-		width: 60%;
-		margin-left: 18%;
-		margin-bottom: 0;
-	}
-	.line3 {
+	hr {
 		height: 0;
 		width: 60%;
 		margin-left: 18%;
