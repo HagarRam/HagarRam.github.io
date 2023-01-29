@@ -1,31 +1,33 @@
-* {
-	width: 1440px;
+.container {
+	width: 100vw;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Rubik', sans-serif;
 }
-/********************** header ************************/
+/* header */
 #header {
-	position: relative;
-}
-#background {
 	width: 100%;
+	height: 30%;
 }
+/* title */
 #title {
 	position: absolute;
-	margin-top: -15%;
+	margin-top: -210px;
 	color: white;
 	font-weight: 500;
 	font-size: 25px;
 	margin-left: 39%;
+	width: 30%;
 }
 #inputIP {
 	position: absolute;
-	margin-top: -11%;
-	width: 400px;
-	margin-left: 32.3%;
-	padding: 1%;
+	margin-top: -127px;
+	width: 26%;
+	margin-left: 32%;
+	padding-bottom: 18px;
+	padding-top: 18px;
 	font-weight: 400;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 0px;
@@ -35,11 +37,11 @@
 }
 #buttonInput {
 	position: absolute;
-	margin-top: -11%;
-	width: 50px;
-	margin-left: 60%;
-	padding: 1%;
-	padding-bottom: 31px;
+	margin-top: -127px;
+	width: 4%;
+	margin-left: 58%;
+	padding-bottom: 34px;
+	padding-top: 18px;
 	cursor: pointer;
 	border-style: none;
 	background-color: black;
@@ -47,40 +49,33 @@
 	border-top-right-radius: 12px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 12px;
+	background-image: url(images/icon-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.arrow {
-	border: solid white;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 3px;
-}
-#buttonInput:hover {
-	background-color: rgb(56, 56, 56);
-}
-.right {
-	transform: rotate(-45deg);
-	position: absolute;
-	width: 6px;
-	margin-left: -13%;
-	margin-top: 7%;
+#background {
+	width: 100%;
+	height: 100%;
 }
 
-/************************** box *************************/
+/* boxes */
 #box {
-	margin-left: 16%;
-	margin-top: -70px;
+	margin-left: 11%;
+	margin-top: -40px;
 	padding: 20px;
 	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 40px;
 	background-color: white;
-	width: 950px;
-	height: 209px;
+	width: 59%;
+	height: 22%;
 	position: absolute;
 	display: flex;
 }
+
 #details-Container {
 	display: flex;
 }
+
 span {
 	font-family: 'Rubik';
 	font-style: normal;
@@ -90,33 +85,6 @@ span {
 	letter-spacing: -0.008em;
 }
 
-#location {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 20px;
-	margin-left: 1%;
-}
-#IPAddresslocation {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 20px;
-}
-#timeZonelocation {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 20px;
-}
-#isplocation {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-left: -1%;
-	margin-bottom: 20px;
-}
-
 .title {
 	color: #969696;
 	font-family: 'Rubik';
@@ -124,90 +92,64 @@ span {
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 15px;
+	margin-left: 0%;
+	margin-top: 26px;
+	margin-bottom: 44px;
 	letter-spacing: 0.1em;
 }
-.line1 {
-	margin-left: -135%;
-	margin-right: 3%;
-	margin-top: 2%;
-	margin-bottom: 4%;
+#location {
+	margin-left: 3%;
+}
+#isplocation {
+	margin-right: 6%;
 }
 
-.line2 {
-	margin-left: -136%;
-	margin-right: 5%;
-	margin-top: 2%;
-	margin-bottom: 4%;
-}
-.line3 {
-	margin-left: -145%;
-	margin-right: 3%;
-	margin-top: 2%;
-	margin-bottom: 4%;
-}
-/****************** .attribution ***********************/
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
+#maps {
+	width: 100%;
+	height: 70%;
 }
 
 @media screen and (max-width: 500px) {
-	* {
-		width: 100%;
-	}
-	#background {
-		height: 140px;
-	}
 	#box {
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		width: 50%;
-		height: 274px;
-		margin-top: -8%;
-		margin-left: 23%;
+		height: 36%;
+		margin-top: -40px;
+		margin-left: 19%;
 		text-align: center;
 	}
 
 	#inputIP {
 		margin-left: 28%;
 		width: 37%;
-		margin-top: -72px;
+		margin-top: -140px;
 		font-size: 6px;
-		height: 14px;
+		height: 0%;
 	}
-
 	#buttonInput {
-		padding-bottom: 11px;
-		margin-left: 65%;
-		margin-top: -72px;
-		padding-top: 4px;
+		margin-left: 66%;
+		margin-top: -140px;
+		padding-bottom: 18px;
 		width: 20px;
 	}
-	.right {
-		width: 4px;
-		margin-left: -10%;
-		margin-top: 8%;
-	}
-	.arrow {
-		border-width: 0 2px 2px 0;
-
-		padding: 1px;
-	}
 	#title {
-		margin-left: 35%;
-		margin-top: -115px;
-		font-size: 14px;
-		width: 40%;
+		font-size: 18px;
+		margin-top: -222px;
 	}
 	.title {
 		font-size: 8px;
+		margin-bottom: 0;
+		margin-top: 8%;
 	}
 	span {
 		font-size: 8px;
+	}
+	.location {
+		width: 100%;
+	}
+	.IPAddresslocation {
+		width: 100%;
 	}
 	.line1 {
 		height: 0;
