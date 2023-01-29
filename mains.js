@@ -4,7 +4,8 @@ let input = document.getElementById('inputIP');
 const containerDetails = document.getElementById('box');
 const mapsContainer = document.getElementById('maps');
 
-fetchButton.addEventListener('click', () => {
+fetchButton.addEventListener('click', (e) => {
+	e.preventDefault();
 	let searchIP = input.value;
 	getData(searchIP);
 });

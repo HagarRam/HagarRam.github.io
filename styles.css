@@ -65,7 +65,7 @@
 	margin-top: 7%;
 }
 
-/************************** modal *************************/
+/************************** box *************************/
 #box {
 	margin-left: 16%;
 	margin-top: -70px;
@@ -89,8 +89,6 @@ span {
 	line-height: 115%;
 	letter-spacing: -0.008em;
 }
-
-/********************* container **********************/
 
 #location {
 	display: flex;
