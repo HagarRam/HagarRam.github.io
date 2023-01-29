@@ -60,14 +60,14 @@
 
 /********************************* boxes **************************/
 #box {
-	margin-left: 16%;
+	margin-left: 10%;
 	margin-top: -40px;
 	padding: 20px;
 	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-	border-radius: 40px;
+	border-radius: 9px;
 	background-color: white;
-	width: 59%;
-	height: 22%;
+	width: 74%;
+	height: 17%;
 	position: absolute;
 	display: flex;
 }
@@ -80,7 +80,7 @@ span {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 115%;
 	letter-spacing: -0.008em;
 }
@@ -90,15 +90,15 @@ span {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 17px;
+	font-size: 10px;
 	line-height: 15px;
 	margin-left: 0%;
-	margin-top: 32px;
+	margin-top: 9px;
 	margin-bottom: 55px;
 	letter-spacing: 0.1em;
 }
 #location {
-	margin-left: 3%;
+	margin-left: 1%;
 }
 #isplocation {
 	margin-right: 6%;
